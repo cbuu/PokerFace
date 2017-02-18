@@ -1,0 +1,17 @@
+{
+  "excludeScenes": [],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.Pokerface",
+  "startScene": "8f467744-0295-44a0-8667-b4701f6f7e31",
+  "title": "Pokerface",
+  "webOrientation": "auto"
+}
