@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "2a0fb25a-4770-421d-9eaf-faa89d946dcf",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "paidi": {
+      "ver": "1.0.3",
+      "uuid": "cb74c523-4132-4b20-90a9-91808e54851a",
+      "rawTextureUuid": "2a0fb25a-4770-421d-9eaf-faa89d946dcf",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 168,
+      "height": 218,
+      "rawWidth": 168,
+      "rawHeight": 218,
+      "borderTop": 15,
+      "borderBottom": 15,
+      "borderLeft": 15,
+      "borderRight": 15,
+      "subMetas": {}
+    }
+  }
+}
