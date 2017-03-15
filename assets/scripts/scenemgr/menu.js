@@ -1,20 +1,25 @@
+var Client = require('client');
 
 cc.Class({
     extends: cc.Component,
 
     properties: {
-        btn_start:{
-            default:null,
-            type: cc.Button,
-        },
+        roomid : cc.EditBox,
+        password : cc.EditBox,
+        btn_start:cc.Button,
+        btn_create:cc.Button,
     },
 
     // use this for initialization
     onLoad: function () {
-    
+        Client.init();
     },
 
-    test: function(){
-        
+    enterRoom: function(){
+        Client.send("wocao");
     },
+
+    createRoom : function(){
+
+    }
 });

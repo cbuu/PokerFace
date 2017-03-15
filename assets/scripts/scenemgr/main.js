@@ -1,3 +1,4 @@
+/// <reference path="../../../creator.d.ts"/>
 cc.Class({
     extends: cc.Component,
 

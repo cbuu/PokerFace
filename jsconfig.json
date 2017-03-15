@@ -1,13 +1,19 @@
 {
     "compilerOptions": {
         "target": "es6",
-        "module": "commonjs"
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true
     },
     "exclude": [
         "node_modules",
-        "library",
-        "local",
-        "settings",
+        "bower_components",
+        "jspm_packages",
+        "tmp",
         "temp"
-    ]
+    ],
+    "typeAcquisition": {
+        "include": [
+            "lodash"
+        ]
+    }
 }
