@@ -66,7 +66,7 @@ Card.fromId = function (id){
     return cards[id];
 }
 
-(function createCards(){
+function createCards(){
     for(var i = 0; i < 4; i++){
         for(var j = 1;j<=13;j++){
             var card = new Card(i,j);
@@ -77,7 +77,7 @@ Card.fromId = function (id){
     var joker2 = new Card(2,Suit.Joker);//黑鬼
     cards[52] = joker1;
     cards[53] = joker2
-})();
+}
 
 
 var ActorPlayingState = cc.Enum({

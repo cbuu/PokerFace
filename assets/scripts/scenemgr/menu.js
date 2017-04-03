@@ -12,11 +12,10 @@ cc.Class({
 
     // use this for initialization
     onLoad: function () {
-        Client.init();
+        
     },
 
     enterRoom: function(){
-        Client.send("wocao");
     },
 
     createRoom : function(){
